@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sherlock Holmes Theme</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      
+    </div>
+    <h1>Sherlock Holmes</h1>
+    <p>The World’s Greatest Detective</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#intro">Introduction</a></li>
+      <li><a href="#case-files">Case Files</a></li>
+      <li><a href="#about">About Sherlock</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="intro" class="graphic-section">
+      <h2>Step Into the Shadows of London</h2>
+      <p>Explore mysteries, deduce clues, and uncover secrets in the footsteps of Sherlock Holmes.</p>
+      <button class="btn-explore">Explore Now</button>
+    </section>
+    <section id="explore" class="explore-section">
+      <h2>Investigate Like Sherlock</h2>
+      <p>Select a case below to start solving the mystery:</p>
+      <div class="cases">
+        <div class="case">
+          <h3>The Speckled Band</h3>
+          <p>A mysterious death involving a strange whistle and a metallic clang.</p>
+          <a href="speckled-band.html" class="btn-case">Investigate</a>
+        </div>
+        <div class="case">
+          <h3>The Hound of the Baskervilles</h3>
+          <p>A terrifying legend of a ghostly hound on the moor.</p>
+          <a href="hound-of-baskervilles.html" class="btn-case">Investigate</a>
+        </div>
+        <div class="case">
+          <h3>A Scandal in Bohemia</h3>
+          <p>A royal scandal involving blackmail and a clever opponent.</p>
+          <a href="scandal-in-bohemia.html" class="btn-case">Investigate</a>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about-section">
+      <h2>About Sherlock Holmes</h2>
+      <p>Sherlock Holmes is the brilliant detective created by Sir Arthur Conan Doyle. Known for his logical reasoning, disguise, and forensic science expertise, he solves the most challenging cases with his trusted companion, Dr. Watson.</p>
+    </section>
+  </main>
+  
+  <section id="case-files" class="case-files-section">
+    <h2>Case Files</h2>
+    <p>Delve into the archives of Sherlock Holmes. Choose a case and unravel its mysteries.</p>
+    <div class="case-grid">
+      <!-- Case 1 -->
+      <div class="case-card">
+        <img src="case1.jpg" alt="The Speckled Band">
+        <div class="case-content">
+          <h3>The Speckled Band</h3>
+          <p>A young woman’s mysterious death is linked to a strange whistle and a metallic clang. Could a sinister family secret be the cause?</p>
+          <a href="speckled-band.html" class="btn-case">Investigate</a>
+        </div>
+      </div>
+      <!-- Case 2 -->
+      <div class="case-card">
+        <img src="case2.jpg" alt="The Hound of the Baskervilles">
+        <div class="case-content">
+          <h3>The Hound of the Baskervilles</h3>
+          <p>A ghostly hound terrorizes the Baskerville family. Is it a curse, or is there more to this tale?</p>
+          <a href="hound-of-baskervilles.html" class="btn-case">Investigate</a>
+        </div>
+      </div>
+      <!-- Case 3 -->
+      <div class="case-card">
+        <img src="case3.jpg" alt="A Scandal in Bohemia">
+        <div class="case-content">
+          <h3>A Scandal in Bohemia</h3>
+          <p>A powerful king is blackmailed with a photograph. Holmes must outwit the brilliant Irene Adler to retrieve it.</p>
+          <a href="scandal-in-bohemia.html" class="btn-case">Investigate</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2024 Sherlock Holmes Fan Page. All Rights Reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
